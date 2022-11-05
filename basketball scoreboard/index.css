@@ -1,0 +1,64 @@
+body{
+    background-image: url(index.jpg);
+}
+
+.container-1{
+    border-style: double;
+    color: blue;
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 70px;
+    height: 30px;
+    border: 3px solid;
+}
+
+.container-2{
+    border-style: double;
+    color: crimson;
+    position: absolute;
+    top: 0;
+    right: 80px;
+    width: 75px;
+    height: 30px;
+    border: 3px solid;
+}
+.scores-one{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    font-size: 18px;
+
+}
+.scores-two{
+  position:absolute;
+  top:80px;
+  right:80px;
+  font-size:18px
+;}
+
+.point-one{
+    position:absolute;
+    top: 35px;
+    left: 110px;
+    font-size: 18px;
+    color: green;
+    border-style: groove;
+}
+
+.point-two{
+    position:absolute;
+    top: 35px;
+    right: 110px;
+    font-size: 18px;
+    color: green;
+    border-style: groove;
+}
+
+.newgame{
+    position:absolute;
+    top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
